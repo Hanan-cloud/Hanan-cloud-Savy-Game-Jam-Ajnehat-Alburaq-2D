@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 00dc6269f988ac64e8555ec8231b101c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9006413567964303196
+    second: hands trans only_0
+  - first:
+      213: 7383133798617705192
+    second: hands trans only_1
+  - first:
+      213: -2292166237763076172
+    second: hands trans only_2
+  - first:
+      213: 4607673247377701975
+    second: hands trans only_3
+  - first:
+      213: -3259016092488641847
+    second: hands trans only_4
+  - first:
+      213: -4252342776733728877
+    second: hands trans only_5
+  - first:
+      213: -1362978775956161263
+    second: hands trans only_6
+  - first:
+      213: 5152063967296116023
+    second: hands trans only_7
+  - first:
+      213: 1475991828756801614
+    second: hands trans only_8
+  - first:
+      213: -5789564985233013870
+    second: hands trans only_9
+  - first:
+      213: -5304228262342046158
+    second: hands trans only_10
+  - first:
+      213: -646158762437830592
+    second: hands trans only_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,309 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hands trans only_0
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 3494
+        width: 960
+        height: 1834
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f45ca0c653dfc70800000000000000
+      internalID: 9006413567964303196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_1
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 5196
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eae9c38219267660800000000000000
+      internalID: 7383133798617705192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_2
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 3518
+        width: 960
+        height: 1827
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bffcff73f69030e0800000000000000
+      internalID: -2292166237763076172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_3
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 1480
+        width: 1088
+        height: 2006
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cb40fe76eb1ff30800000000000000
+      internalID: 4607673247377701975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_4
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 5158
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2dee18126a5c2d0800000000000000
+      internalID: -3259016092488641847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_5
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 5112
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f769146c4acf4c0800000000000000
+      internalID: -4252342776733728877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_6
+      rect:
+        serializedVersion: 2
+        x: 4190
+        y: 4754
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d7cbe460ab51de0800000000000000
+      internalID: -1362978775956161263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_7
+      rect:
+        serializedVersion: 2
+        x: 4230
+        y: 4719
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73556c6a1eecf7740800000000000000
+      internalID: 5152063967296116023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_8
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2680
+        width: 34
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ad648fb6cb7410800000000000000
+      internalID: 1475991828756801614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_9
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1649
+        width: 778
+        height: 1865
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2938523025557afa0800000000000000
+      internalID: -5789564985233013870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_10
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1659
+        width: 905
+        height: 1866
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ec3879f789366b0800000000000000
+      internalID: -5304228262342046158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands trans only_11
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 3540
+        width: 1202
+        height: 2015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048136077026807f0800000000000000
+      internalID: -646158762437830592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
