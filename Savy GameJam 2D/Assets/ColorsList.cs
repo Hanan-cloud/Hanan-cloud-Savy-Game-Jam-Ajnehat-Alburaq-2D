@@ -1,18 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColorsList : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public SpriteRenderer nailpolishColor;
+    public GameObject nailpolish;
+    public void Play()
     {
-        
+        SceneManager.LoadScene(1);
     }
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+        DontDestroyOnLoad(nailpolish);
+        nailpolishColor = nailpolish.GetComponent<SpriteRenderer>();
+    }
+
+   public void red()
+    {
+        nailpolishColor.color =Color.red;
+       
+    }
+   
+    public void green()
+    {
+        nailpolishColor.color = Color.green;
+    }
+    public void blue()
+    {
+        nailpolishColor.color = Color.blue;
     }
 }

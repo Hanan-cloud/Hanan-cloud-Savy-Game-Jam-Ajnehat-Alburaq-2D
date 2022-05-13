@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/changeColor.unity
+    guid: 8094f61befd044cdd99c5e1267aceda0
+  - enabled: 1
+    path: Assets/gameScene.unity
+    guid: 95829104da7ee4830bf36f31cd8c6366
+  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: ee142e586d5a64f448c3878f80ffdbdb
   - enabled: 1
