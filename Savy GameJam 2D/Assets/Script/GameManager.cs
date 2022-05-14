@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject losingPanal;
     public static int points;
     // Start is called before the first frame update
     void Start()
@@ -12,17 +14,12 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(points <0){
-            StartCoroutine(Wait3Coroutine());
-        }
-    }
+  
     public static void IncreasePoints(){
         points=points+1;
          if(points>=3){
             Debug.Log("player won!");
-            EndGame();
+          
         }
         
     }
@@ -30,7 +27,7 @@ public class GameManager : MonoBehaviour
         points=points-1;
         if(points<0){
             Debug.Log("player lost!");
-            EndGame();
+            
         }
     }
 
@@ -38,8 +35,9 @@ public class GameManager : MonoBehaviour
         return points;
     }
 
-    public static void EndGame(){
+    public void EndGame(){
         Time.timeScale = 0;
+        StartCoroutine(Wait3Coroutine());
         //do: change behaviour after time is paused here...
     }
 
@@ -47,7 +45,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("reloading scene in 3 seconds");
         yield return new WaitForSecondsRealtime(3);
-        Application.LoadLevel("Game");
+        losingPanal.SetActive(true);
 
     }
 }
