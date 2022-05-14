@@ -10,12 +10,10 @@ public class PlayerMovement : MonoBehaviour
     bool grounded;
     [SerializeField] float jumpPower;
 
-    //public int jumpNum = 7;
-    //private int jumpCount ;
+    private int jumpCount = 2;
     // Start is called before the first frame update
     void Start()
     {
-       // jumpCount = jumpNum;
         rb = GetComponent<Rigidbody2D>();
         grounded=false;
     }
@@ -28,43 +26,39 @@ public class PlayerMovement : MonoBehaviour
         {
             tch = Input.GetTouch(0);
 
-            if (tch.phase == TouchPhase.Began )
+            if (tch.phase == TouchPhase.Began & jumpCount>0)
             {
-              //  print("jump by touch");
+                print("jump by touch");
                 jump();
             }
 
-        } else if (Input.GetKeyDown("space") )
+        } /*else if (Input.GetKeyDown("space") )
         {
-           // print("jump using space button");
+            print("jump using space button");
             jump();
+        }*/
+    } 
+    void jump(){
+        rb.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
+        jumpCount--;
+    }
+   /* void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.CompareTag("Nail")|| col.gameObject.CompareTag("Ground"))
+        {
+            grounded=true;
+            print("grounded");
+            jumpCount = 2;
         }
     }
-    void jump()
+    void OnCollisionExit2D(Collision2D col)
     {
-          rb.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
+        if(col.gameObject.CompareTag("Nail")|| col.gameObject.CompareTag("Ground")){
+            grounded=false;
+            print("not grounded");
+        }
+    }*/
 
-      //  rb.AddForce(transform.up * Time.time * jumpPower);
-        //jumpCount--;
-    }
-
-    //void OnCollisionEnter2D(Collision2D col)
-    //{
-    //    if(col.gameObject.CompareTag("Nail"))
-    //    {
-    //        grounded=true;
-    //        print("grounded");
-    //       // jumpCount = jumpNum;
-    //    }
-    //}
-    //void OnCollisionExit2D(Collision2D col)
-    //{
-    //    if(col.gameObject.CompareTag("Nail")){
-    //        grounded=false;
-    //        print("not grounded");
-    //    }
-    //}
-
-
+    
 
 }
