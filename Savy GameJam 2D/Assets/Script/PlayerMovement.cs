@@ -32,11 +32,11 @@ public class PlayerMovement : MonoBehaviour
                 jump();
             }
 
-        } else if (Input.GetKeyDown("space") && grounded)
+        } /*else if (Input.GetKeyDown("space") )
         {
             print("jump using space button");
             jump();
-        }
+        }*/
     } 
     void jump(){
         rb.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.CompareTag("Ground")){
+        if(col.gameObject.CompareTag("Nail")){
             grounded=true;
             print("grounded");
             jumpCount = 2;
@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnCollisionExit2D(Collision2D col)
     {
-        if(col.gameObject.CompareTag("Ground")){
+        if(col.gameObject.CompareTag("Nail")){
             grounded=false;
             print("not grounded");
         }

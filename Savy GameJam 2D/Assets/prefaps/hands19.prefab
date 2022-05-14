@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6502842493364078302}
   - component: {fileID: 8309606963892306709}
   - component: {fileID: -3163013033255945236}
-  - component: {fileID: -1623540820569939519}
+  - component: {fileID: -8019676803245846953}
   m_Layer: 0
   m_Name: hands19
   m_TagString: Untagged
@@ -127,7 +127,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &-1623540820569939519
+--- !u!61 &-8019676803245846953
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

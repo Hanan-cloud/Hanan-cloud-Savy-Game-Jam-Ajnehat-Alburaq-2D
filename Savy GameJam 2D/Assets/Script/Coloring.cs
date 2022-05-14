@@ -17,9 +17,13 @@ public class Coloring : MonoBehaviour
  
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hi");
-        nailColor = collision.GetComponent<SpriteRenderer>();
-        nailColor.color = nailPolishColor.color;
+        if (collision.gameObject.CompareTag("Nail"))
+        {
+            Debug.Log("hi");
+            nailColor = collision.GetComponent<SpriteRenderer>();
+            nailColor.color = nailPolishColor.color;
+        }
 
     }
+  
 }

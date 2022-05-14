@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 5927383155061179099}
   - component: {fileID: -5530645491470482348}
   - component: {fileID: 2902821713140301259}
-  - component: {fileID: 7586408219415203854}
+  - component: {fileID: -4679160890939851798}
   m_Layer: 0
   m_Name: hand14
   m_TagString: Untagged
@@ -611,7 +611,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &7586408219415203854
+--- !u!61 &-4679160890939851798
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
