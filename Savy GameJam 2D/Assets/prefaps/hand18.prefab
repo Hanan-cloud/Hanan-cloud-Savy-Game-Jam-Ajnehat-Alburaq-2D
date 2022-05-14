@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3856169760343676516}
   - component: {fileID: 7175032634740794170}
+  - component: {fileID: 7918868750407313291}
   m_Layer: 0
   m_Name: 3_0
-  m_TagString: Untagged
+  m_TagString: Nail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,6 +83,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &7918868750407313291
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303480998110876208}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.77, y: 0.87}
+  m_Direction: 0
 --- !u!1 &1187345857415618560
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,9 +109,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6963139818839569646}
   - component: {fileID: 2130518937152190013}
+  - component: {fileID: 4131099908805512939}
   m_Layer: 0
   m_Name: 3_1
-  m_TagString: Untagged
+  m_TagString: Nail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,6 +182,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &4131099908805512939
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187345857415618560}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.78, y: 0.96}
+  m_Direction: 0
 --- !u!1 &2828138523195320466
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,9 +208,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5755415473945381608}
   - component: {fileID: 1162250930013203646}
+  - component: {fileID: 2682441858185125206}
   m_Layer: 0
   m_Name: 3_3
-  m_TagString: Untagged
+  m_TagString: Nail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,6 +281,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &2682441858185125206
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828138523195320466}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 2.91, y: 1.82}
+  m_Direction: 0
 --- !u!1 &3069432847508018456
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,9 +307,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1166758417678278205}
   - component: {fileID: 872173586563385487}
+  - component: {fileID: 240171980581673234}
   m_Layer: 0
   m_Name: 3_2
-  m_TagString: Untagged
+  m_TagString: Nail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -328,6 +380,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &240171980581673234
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3069432847508018456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.82, y: 0.87}
+  m_Direction: 0
 --- !u!1 &4000261101726756043
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,9 +406,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8596770899729782853}
   - component: {fileID: 4910951416447058480}
+  - component: {fileID: 7598048015835415953}
   m_Layer: 0
   m_Name: 3_4
-  m_TagString: Untagged
+  m_TagString: Nail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -410,6 +479,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &7598048015835415953
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4000261101726756043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.53, y: 0.86}
+  m_Direction: 0
 --- !u!1 &5308460155754775636
 GameObject:
   m_ObjectHideFlags: 0

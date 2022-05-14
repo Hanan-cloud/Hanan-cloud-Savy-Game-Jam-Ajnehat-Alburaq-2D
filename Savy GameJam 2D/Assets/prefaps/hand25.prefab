@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3522992049970258329}
   - component: {fileID: 1880834203533635615}
+  - component: {fileID: 1779610091260494636}
   m_Layer: 0
   m_Name: 4_4
   m_TagString: Untagged
@@ -82,6 +83,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1779610091260494636
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747807206361027120}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.52, y: 1.15}
+  m_Direction: 0
 --- !u!1 &3286494588720354779
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7202121570778590128}
   - component: {fileID: 958507639470314657}
+  - component: {fileID: 3063692128031626}
   m_Layer: 0
   m_Name: 4_0
   m_TagString: Untagged
@@ -164,6 +182,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &3063692128031626
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3286494588720354779}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.62, y: 1.14}
+  m_Direction: 0
 --- !u!1 &4853812128838563104
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,6 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 929867539090981074}
   - component: {fileID: 104374068775494674}
+  - component: {fileID: 4654466718744489495}
   m_Layer: 0
   m_Name: 4_1
   m_TagString: Untagged
@@ -246,6 +281,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &4654466718744489495
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4853812128838563104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.66, y: 1.09}
+  m_Direction: 0
 --- !u!1 &6823933370305833331
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4307111198402752597}
   - component: {fileID: 6433605908194357463}
+  - component: {fileID: 1688879754569894879}
   m_Layer: 0
   m_Name: 4_2
   m_TagString: Untagged
@@ -328,6 +380,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1688879754569894879
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6823933370305833331}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.58, y: 1.08}
+  m_Direction: 0
 --- !u!1 &7677441123339648594
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6408151803663141089}
   - component: {fileID: 2351355731451104252}
+  - component: {fileID: 8309651804932801823}
   m_Layer: 0
   m_Name: 4_3
   m_TagString: Untagged
@@ -410,6 +479,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &8309651804932801823
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7677441123339648594}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.57, y: 0.99}
+  m_Direction: 0
 --- !u!1 &7728355832596050538
 GameObject:
   m_ObjectHideFlags: 0
