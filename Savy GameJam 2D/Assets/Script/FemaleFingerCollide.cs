@@ -25,4 +25,13 @@ public class FemaleFingerCollide : MonoBehaviour
             
         }
     }
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            GameManager.IncreasePoints();
+            Debug.Log("player collided with FemaleFinger, points= " + GameManager.GetPoints());
+
+        }
+    }
 }

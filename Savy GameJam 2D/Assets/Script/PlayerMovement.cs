@@ -44,7 +44,8 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.CompareTag("Nail")){
+        if(col.gameObject.CompareTag("Nail")|| col.gameObject.CompareTag("Ground"))
+        {
             grounded=true;
             print("grounded");
             jumpCount = 2;
@@ -52,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnCollisionExit2D(Collision2D col)
     {
-        if(col.gameObject.CompareTag("Nail")){
+        if(col.gameObject.CompareTag("Nail")|| col.gameObject.CompareTag("Ground")){
             grounded=false;
             print("not grounded");
         }

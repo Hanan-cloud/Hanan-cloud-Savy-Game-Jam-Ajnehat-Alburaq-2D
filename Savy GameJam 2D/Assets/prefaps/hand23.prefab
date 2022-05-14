@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5917371213851656985}
   - component: {fileID: 4105626661515132540}
   - component: {fileID: 8960641022695826473}
+  - component: {fileID: 2867764325254556570}
   m_Layer: 0
   m_Name: 5_1
   m_TagString: Nail
@@ -121,6 +122,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2867764325254556570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313494860792586567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4876334423378595391
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +146,7 @@ GameObject:
   - component: {fileID: 7461820195659236182}
   - component: {fileID: 5518508725754765352}
   - component: {fileID: 5052193637174642548}
+  - component: {fileID: 2658705182977685798}
   m_Layer: 0
   m_Name: '5_4 '
   m_TagString: Nail
@@ -242,6 +256,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2658705182977685798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4876334423378595391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6604192531028787011
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +280,7 @@ GameObject:
   - component: {fileID: 8044415515027440602}
   - component: {fileID: 7428600139637375972}
   - component: {fileID: 7135797199943186448}
+  - component: {fileID: 5913876582778888757}
   m_Layer: 0
   m_Name: 5_0
   m_TagString: Nail
@@ -363,6 +390,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5913876582778888757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6604192531028787011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6720562988042964272
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +414,7 @@ GameObject:
   - component: {fileID: 6195080167717209812}
   - component: {fileID: 1601117646631543307}
   - component: {fileID: 8037276068552736162}
+  - component: {fileID: 3713892641883728944}
   m_Layer: 0
   m_Name: 5_3
   m_TagString: Nail
@@ -484,6 +524,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3713892641883728944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720562988042964272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7594887052418792816
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,6 +701,7 @@ GameObject:
   - component: {fileID: 1200183982961980829}
   - component: {fileID: 7389470273189156543}
   - component: {fileID: 1811786815025050798}
+  - component: {fileID: 6018559871422939965}
   m_Layer: 0
   m_Name: 5_2
   m_TagString: Nail
@@ -758,3 +811,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6018559871422939965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187507850483713670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

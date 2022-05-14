@@ -11,8 +11,8 @@ public class MaleFingerCollide : MonoBehaviour
 
     void Start()
     {
-        
-        gamemanager = gameManager.GetComponent<GameManager>();
+        gameManager = GameObject.Find("GameObjectManager");
+         gamemanager = gameManager.GetComponent<GameManager>();
 
     }
 

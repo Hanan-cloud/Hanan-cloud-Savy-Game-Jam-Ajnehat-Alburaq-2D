@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4673878454295355499}
   - component: {fileID: 2133556410817358862}
   - component: {fileID: 4491463243684999159}
+  - component: {fileID: 6149735337585720584}
   m_Layer: 0
   m_Name: 4_4
   m_TagString: Nail
@@ -121,6 +122,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6149735337585720584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692268725929420840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1693444127323992145
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +146,7 @@ GameObject:
   - component: {fileID: 7540829944639865116}
   - component: {fileID: 7004804590339181263}
   - component: {fileID: 6072130468676048928}
+  - component: {fileID: 3671191973912160391}
   m_Layer: 0
   m_Name: 4_0
   m_TagString: Nail
@@ -242,6 +256,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3671191973912160391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693444127323992145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2920485487401303399
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +280,7 @@ GameObject:
   - component: {fileID: 5727826041462675490}
   - component: {fileID: 74419884621447168}
   - component: {fileID: 2853016787009309905}
+  - component: {fileID: 3611103641463335087}
   m_Layer: 0
   m_Name: 4_3
   m_TagString: Nail
@@ -363,6 +390,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3611103641463335087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920485487401303399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3387243684770506128
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +414,7 @@ GameObject:
   - component: {fileID: 501132895601284637}
   - component: {fileID: 1324471682340554798}
   - component: {fileID: 3517117852084838092}
+  - component: {fileID: 5922726054467784643}
   m_Layer: 0
   m_Name: 4_2
   m_TagString: Nail
@@ -484,6 +524,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5922726054467784643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3387243684770506128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7482729588010036352
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +548,7 @@ GameObject:
   - component: {fileID: 3193599517760395377}
   - component: {fileID: 4520366297680159523}
   - component: {fileID: 5702692809087535746}
+  - component: {fileID: 933269777131582217}
   m_Layer: 0
   m_Name: 4_1
   m_TagString: Nail
@@ -605,6 +658,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &933269777131582217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482729588010036352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8752254246372190261
 GameObject:
   m_ObjectHideFlags: 0

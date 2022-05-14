@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7944095644665127741}
   - component: {fileID: 7546426363357047562}
   - component: {fileID: 1574356413438321663}
+  - component: {fileID: 8727765896972160768}
   m_Layer: 0
   m_Name: 2_2
   m_TagString: Nail
@@ -121,6 +122,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8727765896972160768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763937531436668964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3106678205951630576
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +146,7 @@ GameObject:
   - component: {fileID: 488887556054809297}
   - component: {fileID: 7617341596569703495}
   - component: {fileID: 7101717249688963749}
+  - component: {fileID: 8115795931376417235}
   m_Layer: 0
   m_Name: 2_1
   m_TagString: Nail
@@ -242,6 +256,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8115795931376417235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3106678205951630576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4644196613812965157
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +280,7 @@ GameObject:
   - component: {fileID: 46891359856262567}
   - component: {fileID: 687588032542303724}
   - component: {fileID: 6809272330416960432}
+  - component: {fileID: 8987358244576125292}
   m_Layer: 0
   m_Name: 2_4
   m_TagString: Nail
@@ -363,6 +390,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8987358244576125292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4644196613812965157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5755233569207850801
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +414,7 @@ GameObject:
   - component: {fileID: 2321330515799944934}
   - component: {fileID: 3439314712332612894}
   - component: {fileID: 339723514348895789}
+  - component: {fileID: 853716037447937151}
   m_Layer: 0
   m_Name: 2_3
   m_TagString: Nail
@@ -484,6 +524,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &853716037447937151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5755233569207850801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8060204314071665219
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +548,7 @@ GameObject:
   - component: {fileID: 4922927423449651379}
   - component: {fileID: 7298702857400220421}
   - component: {fileID: 1997514570790802633}
+  - component: {fileID: 2874763905470533162}
   m_Layer: 0
   m_Name: 2_0
   m_TagString: Nail
@@ -605,6 +658,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2874763905470533162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060204314071665219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8700081571617838591
 GameObject:
   m_ObjectHideFlags: 0

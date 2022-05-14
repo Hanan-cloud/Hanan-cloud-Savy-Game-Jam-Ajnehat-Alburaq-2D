@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject updats;
     public GameObject losingPanal;
     public static int points;
     // Start is called before the first frame update
@@ -46,6 +47,8 @@ public class GameManager : MonoBehaviour
         Debug.Log("reloading scene in 3 seconds");
         yield return new WaitForSecondsRealtime(3);
         losingPanal.SetActive(true);
+        updats.SetActive(false);
+
 
     }
 }

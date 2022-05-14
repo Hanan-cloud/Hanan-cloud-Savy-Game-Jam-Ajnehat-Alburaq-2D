@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7516281707619692298}
   - component: {fileID: 7435082036506895703}
   - component: {fileID: 4700965845172175270}
+  - component: {fileID: 4017210559664506964}
   m_Layer: 0
   m_Name: 1_3
   m_TagString: Nail
@@ -99,6 +100,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.79, y: 1.11}
   m_Direction: 0
+--- !u!114 &4017210559664506964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344424321685984145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1139015907092253277
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,6 +123,7 @@ GameObject:
   - component: {fileID: 1226716830041837422}
   - component: {fileID: 7300877863258046825}
   - component: {fileID: 704306570511457361}
+  - component: {fileID: 2848068119106828175}
   m_Layer: 0
   m_Name: 1_2
   m_TagString: Nail
@@ -198,6 +212,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.83, y: 1.24}
   m_Direction: 0
+--- !u!114 &2848068119106828175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139015907092253277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1593063859330360516
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +388,7 @@ GameObject:
   - component: {fileID: 3784576284041706831}
   - component: {fileID: 8819629984557767456}
   - component: {fileID: 7444548039072300977}
+  - component: {fileID: 2619018826895443374}
   m_Layer: 0
   m_Name: 1_1
   m_TagString: Nail
@@ -450,6 +477,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.78, y: 1.24}
   m_Direction: 0
+--- !u!114 &2619018826895443374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237999049604229539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4371964595879491138
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +500,7 @@ GameObject:
   - component: {fileID: 8177075615737906839}
   - component: {fileID: 1105144705909599695}
   - component: {fileID: 4530054542354338436}
+  - component: {fileID: 6423689596443628867}
   m_Layer: 0
   m_Name: 1_4
   m_TagString: Nail
@@ -549,6 +589,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.55, y: 1.15}
   m_Direction: 0
+--- !u!114 &6423689596443628867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4371964595879491138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8474755690502880404
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +612,7 @@ GameObject:
   - component: {fileID: 8629554710793552301}
   - component: {fileID: 6100090297394055570}
   - component: {fileID: 5619460046937346811}
+  - component: {fileID: 7115142564164069843}
   m_Layer: 0
   m_Name: 1_0
   m_TagString: Nail
@@ -648,3 +701,15 @@ CapsuleCollider2D:
   m_Offset: {x: -0.36365604, y: 0}
   m_Size: {x: 0.7726879, y: 1.5}
   m_Direction: 0
+--- !u!114 &7115142564164069843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8474755690502880404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
