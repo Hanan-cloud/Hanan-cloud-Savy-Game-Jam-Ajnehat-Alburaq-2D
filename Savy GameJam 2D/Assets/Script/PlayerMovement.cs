@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
         
         if (Input.touchCount > 0)
         {
-            tch = Input.GetTouch(0);
+            tch = Input.GetTouch(2);
 
             if (tch.phase == TouchPhase.Began & jumpCount>0)
             {
