@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MaleFingerCollide : MonoBehaviour
 {
-    //GameManager GameManagerScript = new GameManager(); this is for non-static functions/attributes
-    // Start is called before the first frame update
+    [SerializeField]
+    public GameObject gameManager;
+    public GameManager gamemanager;
+
     void Start()
     {
         
+        gamemanager = gameManager.GetComponent<GameManager>();
 
     }
 
@@ -21,7 +25,7 @@ public class MaleFingerCollide : MonoBehaviour
     {
         if(col.gameObject.CompareTag("Player")){
             //do: OR END GAME by GameManager.EndGame();
-            GameManager.DecreasePoints();
+            gamemanager.EndGame();
             Debug.Log("player collided with MaleFinger, points= "+GameManager.GetPoints());
             
         }

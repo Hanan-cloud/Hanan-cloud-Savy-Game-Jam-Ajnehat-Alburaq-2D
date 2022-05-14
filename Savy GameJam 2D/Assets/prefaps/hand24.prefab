@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 619188147436513024}
   - component: {fileID: 6260613294269619594}
   - component: {fileID: 3295851676836004601}
+  - component: {fileID: 2029357935858298258}
   m_Layer: 0
   m_Name: 3_2
   m_TagString: Nail
@@ -94,7 +95,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -121,6 +122,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2029357935858298258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007973892025164045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3249735183051223763
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,6 +299,7 @@ GameObject:
   - component: {fileID: 5072546714530829025}
   - component: {fileID: 6298552037612572671}
   - component: {fileID: 3213644868194152764}
+  - component: {fileID: 647083688186903036}
   m_Layer: 0
   m_Name: 3_4
   m_TagString: Nail
@@ -368,7 +382,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -395,6 +409,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &647083688186903036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802782336321962731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4970253226689997853
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +433,7 @@ GameObject:
   - component: {fileID: 6924251109977375209}
   - component: {fileID: 6301394393603236025}
   - component: {fileID: 1483052517194378313}
+  - component: {fileID: 3804620355765827189}
   m_Layer: 0
   m_Name: 3_0
   m_TagString: Nail
@@ -489,7 +516,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -516,6 +543,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3804620355765827189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4970253226689997853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7448756271073862249
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,6 +567,7 @@ GameObject:
   - component: {fileID: 7951932984117515810}
   - component: {fileID: 7645566232728593028}
   - component: {fileID: 2894599683010787838}
+  - component: {fileID: 1019512079913528382}
   m_Layer: 0
   m_Name: 3_1
   m_TagString: Nail
@@ -610,7 +650,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -637,6 +677,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1019512079913528382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7448756271073862249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8451718421780777179
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,6 +701,7 @@ GameObject:
   - component: {fileID: 3082579565201234139}
   - component: {fileID: 171749887162424480}
   - component: {fileID: 5374358865070915752}
+  - component: {fileID: 6405301853705354592}
   m_Layer: 0
   m_Name: 3_3
   m_TagString: Nail
@@ -731,7 +784,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -1.0350294, y: 0.48707294}
@@ -758,3 +811,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6405301853705354592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8451718421780777179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

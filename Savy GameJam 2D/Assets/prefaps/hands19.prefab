@@ -165,7 +165,6 @@ GameObject:
   - component: {fileID: 3369179574822998803}
   - component: {fileID: 8401651709642860537}
   - component: {fileID: 1578727834571899013}
-  - component: {fileID: 6149638360525185945}
   m_Layer: 0
   m_Name: 1_2
   m_TagString: Nail
@@ -248,7 +247,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -263,7 +262,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872235064090889550}
   m_BodyType: 1
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -275,18 +274,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6149638360525185945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872235064090889550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2815741508051297340
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +286,6 @@ GameObject:
   - component: {fileID: 2943059463808204895}
   - component: {fileID: 54790495291144036}
   - component: {fileID: 4831838980342589759}
-  - component: {fileID: 1959196400120867498}
   m_Layer: 0
   m_Name: 1_1
   m_TagString: Nail
@@ -382,7 +368,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -397,7 +383,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2815741508051297340}
   m_BodyType: 1
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -409,18 +395,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1959196400120867498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2815741508051297340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4467631904903622978
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +407,6 @@ GameObject:
   - component: {fileID: 8654287195730230138}
   - component: {fileID: 4137008604528403768}
   - component: {fileID: 4357411203024281972}
-  - component: {fileID: 3343541521112759526}
   m_Layer: 0
   m_Name: 1_4
   m_TagString: Nail
@@ -516,7 +489,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -531,7 +504,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4467631904903622978}
   m_BodyType: 1
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -543,18 +516,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3343541521112759526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4467631904903622978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6923591499979510781
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,7 +528,6 @@ GameObject:
   - component: {fileID: 8378176377663740104}
   - component: {fileID: 4405109547236014834}
   - component: {fileID: 3037188271741570261}
-  - component: {fileID: 8735364169044507235}
   m_Layer: 0
   m_Name: 1_0
   m_TagString: Nail
@@ -650,7 +610,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.3685813, y: 0.03455448}
@@ -665,7 +625,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6923591499979510781}
   m_BodyType: 1
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -677,18 +637,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8735364169044507235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6923591499979510781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7446173550282532488
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,7 +649,6 @@ GameObject:
   - component: {fileID: 1081935064822915835}
   - component: {fileID: 4564735573263459907}
   - component: {fileID: 4461990550732110221}
-  - component: {fileID: 3946280870896026802}
   m_Layer: 0
   m_Name: 1_3
   m_TagString: Nail
@@ -784,7 +731,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -799,7 +746,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7446173550282532488}
   m_BodyType: 1
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -811,15 +758,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3946280870896026802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7446173550282532488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
