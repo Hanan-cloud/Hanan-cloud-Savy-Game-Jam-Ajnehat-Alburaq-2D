@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     bool grounded;
     [SerializeField] float jumpPower;
 
-    private int jumpCount = 2;
+    private int jumpCount = 7;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,23 +42,23 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
         jumpCount--;
     }
-   /* void OnCollisionEnter2D(Collision2D col)
+   void OnCollisionEnter2D(Collision2D col)
     {
         if(col.gameObject.CompareTag("Nail")|| col.gameObject.CompareTag("Ground"))
         {
             grounded=true;
             print("grounded");
-            jumpCount = 2;
+            jumpCount = 5;
         }
     }
-    void OnCollisionExit2D(Collision2D col)
+   /* void OnCollisionExit2D(Collision2D col)
     {
         if(col.gameObject.CompareTag("Nail")|| col.gameObject.CompareTag("Ground")){
             grounded=false;
             print("not grounded");
-        }
-    }*/
+        }*/
+    }
 
     
 
-}
+
