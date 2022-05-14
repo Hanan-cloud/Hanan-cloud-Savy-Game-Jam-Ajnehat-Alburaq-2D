@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2980332838086751369}
   - component: {fileID: 3560413902382222374}
   - component: {fileID: 4854385293925955566}
+  - component: {fileID: 6245210544589721904}
   m_Layer: 0
   m_Name: 3_3
   m_TagString: Nail
@@ -93,12 +94,33 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -1.0926766, y: 0.51035166}
   m_Size: {x: 0.72464657, y: 0.84242153}
   m_Direction: 0
+--- !u!50 &6245210544589721904
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2299680746624371046}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2515946493840018264
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2298718312492602222}
   - component: {fileID: 4023273361910228967}
+  - component: {fileID: 7203425931321954442}
   m_Layer: 0
   m_Name: hand3
   m_TagString: Untagged
@@ -125,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 2515946493840018264}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.3951173, y: 7.415693, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 8203707901684801884}
   - {fileID: 1545203237052676667}
@@ -186,6 +209,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7203425931321954442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2515946493840018264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7716ec756b7994511a6acc2a7e806fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fingureTransform: {fileID: 0}
+  X: -1
+  Y: 0
+  Z: 0
 --- !u!1 &2528778008822796844
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,6 +236,7 @@ GameObject:
   - component: {fileID: 269288734855326317}
   - component: {fileID: 1466576038343852343}
   - component: {fileID: 1268295649751370125}
+  - component: {fileID: 6024534067992242221}
   m_Layer: 0
   m_Name: 3_2
   m_TagString: Nail
@@ -285,6 +325,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.82, y: 0.87}
   m_Direction: 0
+--- !u!50 &6024534067992242221
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528778008822796844}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &3313870544338995537
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +357,7 @@ GameObject:
   - component: {fileID: 1545203237052676667}
   - component: {fileID: 480320980055531175}
   - component: {fileID: 3587080291401839766}
+  - component: {fileID: 8539007082625815228}
   m_Layer: 0
   m_Name: 3_1
   m_TagString: Nail
@@ -384,6 +446,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.78, y: 0.96}
   m_Direction: 0
+--- !u!50 &8539007082625815228
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3313870544338995537}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6394757606008226739
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +478,7 @@ GameObject:
   - component: {fileID: 8203707901684801884}
   - component: {fileID: 3827597459278270999}
   - component: {fileID: 2669791125633414825}
+  - component: {fileID: 1944059215565158020}
   m_Layer: 0
   m_Name: 3_0
   m_TagString: Nail
@@ -483,6 +567,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.77, y: 0.87}
   m_Direction: 0
+--- !u!50 &1944059215565158020
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6394757606008226739}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7662956309682252411
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +599,7 @@ GameObject:
   - component: {fileID: 722459983557788615}
   - component: {fileID: 6072144638803517089}
   - component: {fileID: 6343510140853232267}
+  - component: {fileID: 8736294034173453654}
   m_Layer: 0
   m_Name: 3_4
   m_TagString: Nail
@@ -582,3 +688,24 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.53, y: 0.86}
   m_Direction: 0
+--- !u!50 &8736294034173453654
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7662956309682252411}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

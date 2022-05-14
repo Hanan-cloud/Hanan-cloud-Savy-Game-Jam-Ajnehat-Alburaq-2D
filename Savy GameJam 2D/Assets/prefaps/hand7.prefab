@@ -208,6 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8841263480369761445}
   - component: {fileID: 1358959053439838356}
+  - component: {fileID: 8942391173591505977}
   m_Layer: 0
   m_Name: hand7
   m_TagString: Untagged
@@ -224,7 +225,7 @@ Transform:
   m_GameObject: {fileID: 1593063859330360516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.578192, y: 15.959268, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 8629554710793552301}
   - {fileID: 3784576284041706831}
@@ -285,6 +286,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8942391173591505977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593063859330360516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7716ec756b7994511a6acc2a7e806fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fingureTransform: {fileID: 0}
+  X: -1
+  Y: 0
+  Z: 0
 --- !u!1 &3237999049604229539
 GameObject:
   m_ObjectHideFlags: 0
