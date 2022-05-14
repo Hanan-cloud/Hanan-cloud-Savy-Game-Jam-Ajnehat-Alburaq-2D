@@ -31,7 +31,7 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0;
         SceneManager.LoadScene("Game");
     }
 }

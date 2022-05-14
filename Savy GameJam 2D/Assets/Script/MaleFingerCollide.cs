@@ -9,6 +9,8 @@ public class MaleFingerCollide : MonoBehaviour
     public GameObject gameManager;
     public GameManager gamemanager;
 
+    
+
     void Start()
     {
         gameManager = GameObject.Find("GameObjectManager");
@@ -25,8 +27,9 @@ public class MaleFingerCollide : MonoBehaviour
     {
         if(col.gameObject.CompareTag("Player")){
             //do: OR END GAME by GameManager.EndGame();
+          
             gamemanager.EndGame();
-            Debug.Log("player collided with MaleFinger, points= "+GameManager.GetPoints());
+          
             
         }
     }

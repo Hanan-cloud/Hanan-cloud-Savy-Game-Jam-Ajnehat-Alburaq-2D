@@ -6,6 +6,7 @@ public class FemaleFingerCollide : MonoBehaviour
 {
     //GameManager GameManagerScript = new GameManager(); this is for non-static functions/attributes
     // Start is called before the first frame update
+
     void Start()
     {
         
@@ -21,6 +22,7 @@ public class FemaleFingerCollide : MonoBehaviour
     {
         if(col.gameObject.CompareTag("Player")){
             GameManager.IncreasePoints();
+           
             Debug.Log("player collided with FemaleFinger, points= "+GameManager.GetPoints());
             
         }
@@ -30,7 +32,8 @@ public class FemaleFingerCollide : MonoBehaviour
         if (col.gameObject.CompareTag("Player"))
         {
             GameManager.IncreasePoints();
-            Debug.Log("player collided with FemaleFinger, points= " + GameManager.GetPoints());
+         
+           // Debug.Log("player collided with FemaleFinger, points= " + GameManager.GetPoints());
 
         }
     }

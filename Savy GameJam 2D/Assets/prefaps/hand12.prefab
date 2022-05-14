@@ -134,6 +134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  gamemanager: {fileID: 0}
 --- !u!1 &679343776087385872
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  gamemanager: {fileID: 0}
 --- !u!1 &1776901012892007666
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +284,7 @@ GameObject:
   - component: {fileID: 3435477132558008171}
   - component: {fileID: -8141825652490511299}
   - component: {fileID: 920367228376520958}
-  - component: {fileID: 1588236656208076089}
+  - component: {fileID: 3275948740522232428}
   m_Layer: 0
   m_Name: hand12
   m_TagString: Untagged
@@ -395,8 +399,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1588236656208076089
-BoxCollider2D:
+--- !u!70 &3275948740522232428
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -408,19 +412,9 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 13.179999, y: 19.050001}
-    newSize: {x: 13.179999, y: 19.050001}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 13.179999, y: 19.050001}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.04652977, y: -0.93059856}
+  m_Size: {x: 8.177004, y: 17.738802}
+  m_Direction: 0
 --- !u!1 &4861596021755101273
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +549,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  gamemanager: {fileID: 0}
 --- !u!1 &6510673582137628194
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +685,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  gamemanager: {fileID: 0}
 --- !u!1 &8284542371231260048
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,3 +821,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  gamemanager: {fileID: 0}

@@ -49,7 +49,7 @@ public class PauseMenu : MonoBehaviour
     }
 
 
-    void pauseGame()
+    public void pauseGame()
     {
         Pause.SetActive(true);
         paused = true;
