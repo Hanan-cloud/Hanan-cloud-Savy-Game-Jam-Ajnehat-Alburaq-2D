@@ -42,6 +42,11 @@ public class GameManager : MonoBehaviour
         StartCoroutine(Wait3Coroutine());
         //do: change behaviour after time is paused here...
     }
+    public void EndFromFail()
+    {
+        Time.timeScale = 0;
+        StartCoroutine(Wait3Coroutine());
+    }
 
    public IEnumerator Wait3Coroutine()
     {
