@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
         //do: change behaviour after time is paused here...
     }
 
-    IEnumerator Wait3Coroutine()
+   public IEnumerator Wait3Coroutine()
     {
         Debug.Log("reloading scene in 3 seconds");
         yield return new WaitForSecondsRealtime(3);
