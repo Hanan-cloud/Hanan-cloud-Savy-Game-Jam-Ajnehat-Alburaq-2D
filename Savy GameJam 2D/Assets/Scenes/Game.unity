@@ -1184,6 +1184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590723627}
   - component: {fileID: 590723625}
+  - component: {fileID: 590723626}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Nail
@@ -1217,6 +1218,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.16249293}
   m_EdgeRadius: 0
+--- !u!114 &590723626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590723624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb8cd3810ca41d42a72a2f6e6d23093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  gamemanager: {fileID: 0}
 --- !u!4 &590723627
 Transform:
   m_ObjectHideFlags: 0
