@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         points=0;
-        ef = GameObject.Find("Sfx").GetComponent<effect>();
+        ef = GetComponent<effect>();
     }
 
     // Update is called once per frame
