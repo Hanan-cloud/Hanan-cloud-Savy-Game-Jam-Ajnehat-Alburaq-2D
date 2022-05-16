@@ -1355,10 +1355,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 367347376}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89394dd0ba4a8436ba8fa2d0ae3070e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 59fb5e21a2e33584ea39d7aef81e1c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Score: {fileID: 0}
 --- !u!114 &367347379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2969,7 +2968,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234838059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -5485,7 +5484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3889903575322994091, guid: f214d3a3986454941b82eba5bce510b4, type: 3}
       propertyPath: jumpPower
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3889903575322994092, guid: f214d3a3986454941b82eba5bce510b4, type: 3}
       propertyPath: m_Name

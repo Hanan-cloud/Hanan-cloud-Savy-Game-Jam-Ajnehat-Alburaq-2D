@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         }*/
     } 
     void jump(){
-        rb.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
+        rb.velocity = Vector2.up * jumpPower;
        // jumpCount--;
     }
    void OnCollisionEnter2D(Collision2D col)
