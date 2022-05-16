@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     bool grounded;
     [SerializeField] float jumpPower;
 
-    private int jumpCount = 7;
+    //private int jumpCount = 7;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         {
             tch = Input.GetTouch(0);
 
-            if (tch.phase == TouchPhase.Began & jumpCount>0)
+            if (tch.phase == TouchPhase.Began )
             {
                 print("jump by touch");
                 jump();
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     } 
     void jump(){
         rb.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
-        jumpCount--;
+       // jumpCount--;
     }
    void OnCollisionEnter2D(Collision2D col)
     {
@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         {
             grounded=true;
             print("grounded");
-            jumpCount = 5;
+           // jumpCount = 5;
         }
     }
    /* void OnCollisionExit2D(Collision2D col)
