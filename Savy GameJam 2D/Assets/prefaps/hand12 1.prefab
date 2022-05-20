@@ -367,6 +367,7 @@ GameObject:
   - component: {fileID: -8141825652490511299}
   - component: {fileID: 920367228376520958}
   - component: {fileID: 3275948740522232428}
+  - component: {fileID: 7577719428687741342}
   m_Layer: 0
   m_Name: hand12 1
   m_TagString: Untagged
@@ -498,6 +499,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.04652977, y: -0.93059856}
   m_Size: {x: 8.177004, y: 17.738802}
   m_Direction: 0
+--- !u!114 &7577719428687741342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776901012892007666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4861596021755101273
 GameObject:
   m_ObjectHideFlags: 0

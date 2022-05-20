@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7435082036506895703}
   - component: {fileID: 4700965845172175270}
   - component: {fileID: 4017210559664506964}
+  - component: {fileID: 7071160166740617741}
   m_Layer: 0
   m_Name: 1_3
   m_TagString: Nail
@@ -112,6 +113,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &7071160166740617741
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344424321685984145}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1139015907092253277
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +146,7 @@ GameObject:
   - component: {fileID: 7300877863258046825}
   - component: {fileID: 704306570511457361}
   - component: {fileID: 2848068119106828175}
+  - component: {fileID: 7111290085858454062}
   m_Layer: 0
   m_Name: 1_2
   m_TagString: Nail
@@ -224,6 +247,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &7111290085858454062
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139015907092253277}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1593063859330360516
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +433,7 @@ GameObject:
   - component: {fileID: 8819629984557767456}
   - component: {fileID: 7444548039072300977}
   - component: {fileID: 2619018826895443374}
+  - component: {fileID: 6186297534837136480}
   m_Layer: 0
   m_Name: 1_1
   m_TagString: Nail
@@ -489,6 +534,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &6186297534837136480
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237999049604229539}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4371964595879491138
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +567,7 @@ GameObject:
   - component: {fileID: 1105144705909599695}
   - component: {fileID: 4530054542354338436}
   - component: {fileID: 6423689596443628867}
+  - component: {fileID: 7035616560534280508}
   m_Layer: 0
   m_Name: 1_4
   m_TagString: Nail
@@ -601,6 +668,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &7035616560534280508
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4371964595879491138}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8474755690502880404
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +701,7 @@ GameObject:
   - component: {fileID: 6100090297394055570}
   - component: {fileID: 5619460046937346811}
   - component: {fileID: 7115142564164069843}
+  - component: {fileID: 5331897614922292196}
   m_Layer: 0
   m_Name: 1_0
   m_TagString: Nail
@@ -713,3 +802,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 939710b9b35aa594eae024effa091a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &5331897614922292196
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8474755690502880404}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

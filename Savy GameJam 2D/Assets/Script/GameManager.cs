@@ -13,14 +13,18 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        points=0;
-        ef = GameObject.Find("Sfx").GetComponent<effect>();
+        points = 0;
+        ef = GetComponent<effect>();
     }
 
     // Update is called once per frame
   
     public static void IncreasePoints(){
         points=points+1;
+        if(PlayerPrefs.GetInt("points")< points)
+        {
+            PlayerPrefs.SetInt("points",points);
+        }
       ef.win();
 
     }
@@ -39,6 +43,8 @@ public class GameManager : MonoBehaviour
     public void EndGame(){
         Time.timeScale = 0;
        ef.lose();
+        PlayerPrefs.Save();
+
         StartCoroutine(Wait3Coroutine());
         //do: change behaviour after time is paused here...
     }
