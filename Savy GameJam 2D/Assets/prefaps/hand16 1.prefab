@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216040158285875491}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1526833, y: 7.731039, z: 0}
+  m_LocalPosition: {x: -2.1526833, y: 7.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1550358695239529450}
@@ -162,7 +162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2246222240995542771}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.0526829, y: 6.151039, z: 0}
+  m_LocalPosition: {x: -3.0526829, y: 5.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1550358695239529450}
@@ -296,7 +296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2570199104444003851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6616058, y: 3.2340698, z: 0}
+  m_LocalPosition: {x: 2.6616058, y: 3.0430298, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1550358695239529450}
@@ -427,7 +427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5518075511646763588}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.39, y: 3.56, z: 0}
+  m_LocalPosition: {x: -1.39, y: 3.36896, z: 0}
   m_LocalScale: {x: 1.0672332, y: 1.0672332, z: 0.32022}
   m_Children: []
   m_Father: {fileID: 1550358695239529450}
@@ -564,7 +564,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 5233867424616195416, guid: 98a8bea75ddf706489ec2ec975bb34ae, type: 3}
+  m_Sprite: {fileID: 5085060163858953400, guid: bdd54e72dd15c304287f0c43feb4c60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -629,7 +629,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.7799997, y: 18.65}
+    oldSize: {x: 7.7799997, y: 18.22}
     newSize: {x: 7.7799997, y: 18.65}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -666,7 +666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6706575974318849061}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.72268295, y: 8.741039, z: 0}
+  m_LocalPosition: {x: -0.72268295, y: 8.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1550358695239529450}
@@ -800,7 +800,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7255845705122147609}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.63731766, y: 8.021039, z: 0}
+  m_LocalPosition: {x: 0.63731766, y: 7.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1550358695239529450}
