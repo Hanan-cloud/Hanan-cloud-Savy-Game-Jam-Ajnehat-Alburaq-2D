@@ -2488,6 +2488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trail Effect02
       objectReference: {fileID: 0}
+    - target: {fileID: 8670881566086620264, guid: 0f362a92143427c4fbbdfcb3ed04503a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8670881566086620267, guid: 0f362a92143427c4fbbdfcb3ed04503a, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2592,6 +2596,10 @@ PrefabInstance:
     - target: {fileID: 8005026170615698061, guid: 1cc73df879bf2cd44890c2a277823d5d, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8005026170615698063, guid: 1cc73df879bf2cd44890c2a277823d5d, type: 3}
+      propertyPath: looping
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cc73df879bf2cd44890c2a277823d5d, type: 3}
